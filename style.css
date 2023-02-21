@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1995px;
+    width: 384px;
+    animation: downtop 700ms;
+}
+
+:root {
+    --ff-header: 'Staatliches', 'cursive;';
+    --ff-paragraph: 'Palanquin';
+}
+
+
+.container {
+    max-width: 117rem;
+    display: flex;
+  
+}
+
+header { 
+
+
+    background-color: #8E9AAF;
+    text-align: center;
+    height: 296px;
+    width: 384px;
+    position: absolute;
+    margin: 100px 570px;
+    
+
+    font-family: var(--ff-header);
+}
+
+header h2 {
+    font-size: 40px;
+    line-height: 51px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.05em;
+
+
+    position: absolute;
+    right: 24%;
+    bottom: 87,82%;
+    top: 10,48%;
+}
+
+.barra-rosada {
+    height: 49px;
+    width: 384px;
+    
+    
+}
+
+.logo {
+    width: 137px;
+    height: 200px;
+    
+}
+
+.paragrafo  {
+
+    background-color: #EFF1FF;
+    size: 20px;
+
+    align-items: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #23053A;
+    width: 384px;
+    
+}
+
+
+.paragrafo p {
+    
+    font-size: 12px;     
+    font-family: var(--ff-paragraph);
+    line-height: 25px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 14px;
+    
+}
+
+
+.sorvete {
+    height: 250px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: #8E9AAF;
+}
+
+.imagens {
+    background-color: #EFF1FF;
+    transition: transform 5000ms;
+
+}
+
+.imagens:hover {
+    transform: scale(1.1);
+    opacity: 1.0;
+}
+
+span {
+ 
+    margin: 100px 21px 20px 23px;
+        
+}
+
+.palavras {
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #FEEAFA;
+    color: #4A4E69;
+    font-size: 20px;
+    width: 150px;
+    height: 47px;
+    border-radius: 30px;
+    left: 220px;
+    width: fit-content;
+    margin-top: 17px;
+
+    align-items: center;
+    
+}
+
+.palavras-shake {
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #FEEAFA;
+    color: #4A4E69;
+    font-size: 20px;
+    width: 150px;
+    height: 47px;
+    border-radius: 30px;
+    left: 220px;
+    width: fit-content;
+    margin-top: 48px;
+
+    align-items: center;
+}
+
+.shake {
+    margin-bottom: 36px;
+    margin-top: 32px;
+}
+
+
